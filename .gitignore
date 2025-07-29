@@ -10,3 +10,15 @@ romfs/
 
 # Large reference files
 extra_card_list.txt
+
+# Large ROM filesystem directories (too big for GitHub)
+romfs/
+modified/
+
+# Keep the .gitignore additions from before
+
+# Large ROM filesystem directories (too big for GitHub)
+romfs/
+modified/
+
+# Keep the .gitignore additions from before
