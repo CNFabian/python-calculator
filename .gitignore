@@ -8,8 +8,6 @@ romfs/
 # Keep only the essential modified files
 !modified/
 
-# Large reference files
-extra_card_list.txt
 
 # Large ROM filesystem directories (too big for GitHub)
 romfs/
