@@ -1,0 +1,13 @@
+services:
+  libretranslate:
+    container_name: libretranslate
+    image: libretranslate/libretranslate:latest
+    ports:
+      - "5001:5000"
+    environment:
+      - LT_LANGUAGE=en,fr,ja
+    volumes:
+      - libretranslate_data:/app/data
+
+volumes:
+  libretranslate_data:
